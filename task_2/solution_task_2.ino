@@ -22,6 +22,6 @@ void loop(){
   delay(2000);
 
   for(int index = 0; index < 10; index++) {
-    Serial.println("Element aus Liste: " + index + "; Wert des Elements: " + spannung[index]);
+    Serial.println(spannung[index]);
   }
 }

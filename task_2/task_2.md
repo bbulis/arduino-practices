@@ -11,8 +11,7 @@ Nach dem Einlesen eines Wertes soll 1 Sek gewartet werden bis die Schleife erneu
 
 Nach dem Speichern aller werte in die Vektor-Variable sollen 2 Sekunden gewartet werden.
 
-Danach sollen alle Werte auf die Konsole ausgegeben werden in folgender Form.
-"Element aus Liste: <index>; Wert des Elements: <value>"
+Danach sollen alle Werte auf die Konsole ausgegeben werden.
 
 Die Beschaltung des Arduino-Uno wird als korrekt angenommen.
 
@@ -30,8 +29,3 @@ Ausgabe auf die Konsole
 Serial.println();
 ```
 
-### Zusammenbauen der Ausgabe
-Damit der Text und Wert zusammen ausgegeben werden kann müssen diese Verbunden werden. 
-"Element aus Liste: " + index
-
-Diese Aneinanderreihung kann genutzt werden
