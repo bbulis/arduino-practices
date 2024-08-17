@@ -1,7 +1,7 @@
 # Übung 2
 Es soll ein Programm geschrieben werden, welches über den Pin A4 ein digitlaes Signal einliest.
 Die Werte welche eingelesen werden, sollen in eine Vektor-Variable (Liste/Array) geschrieben werden, welche nur positive Werte 
-halten kann. Diese heißt "spannungen"
+halten kann. Diese heißt "spannungen" und soll 10 Werte halten können. 
 
 Die Variable um einen Wert zwischenzuspeichern soll "read_value" heißen.
 Um dies zu garantieren muss überprüft werden ob der eingelesene Wert auch wirklich größer 0 ist.
