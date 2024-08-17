@@ -9,7 +9,9 @@ Die Beschlatung des Arduino-Uno wird als korrekt angenommen.
 
 ## Hilfestellung
 ### Schreiben auf einen Pin
+```
 digitalWrite()
+```
 
 ### Zeitumrechnung
 1 sek = 1000 Millisek
