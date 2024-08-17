@@ -15,7 +15,7 @@ void loop() {
   if (led_status == LOW) {
     led_status = HIGH;
   } else {
-    led_status = HIGH;
+    led_status = LOW;
   }
 
   delay(5000);

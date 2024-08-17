@@ -7,6 +7,8 @@ Die Variable um einen Wert zwischenzuspeichern soll "read_value" heißen.
 Um dies zu garantieren muss überprüft werden ob der eingelesene Wert auch wirklich größer 0 ist.
 Sollte der Wert nicht größer als 0 sein so wird stattdessen immer der Wert 10 gespeichert.
 
+Nach dem Einlesen eines Wertes soll 1 Sek gewartet werden bis die Schleife erneut einen Wert einliest. 
+
 Nach dem Speichern aller werte in die Vektor-Variable sollen 2 Sekunden gewartet werden.
 
 Danach sollen alle Werte auf die Konsole ausgegeben werden in folgender Form.
