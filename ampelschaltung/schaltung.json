@@ -1,0 +1,163 @@
+{
+    "version": 1,
+    "author": "Anonymous maker",
+    "editor": "wokwi",
+    "parts": [
+        {
+            "type": "wokwi-breadboard",
+            "id": "bb1",
+            "top": 0,
+            "left": 0,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-arduino-uno",
+            "id": "uno",
+            "top": 270,
+            "left": 0,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-led",
+            "id": "redRed",
+            "top": -99.6,
+            "left": 51.8,
+            "attrs": {
+                "color": "red"
+            }
+        },
+        {
+            "type": "wokwi-led",
+            "id": "yellowRed",
+            "top": -100,
+            "left": 80,
+            "attrs": {
+                "color": "yellow"
+            }
+        },
+        {
+            "type": "wokwi-led",
+            "id": "greenRed",
+            "top": -100,
+            "left": 110,
+            "attrs": {
+                "color": "green"
+            }
+        },
+        {
+            "type": "wokwi-resistor",
+            "id": "resistorRedLed",
+            "top": 61.55,
+            "left": 48,
+            "attrs": {
+                "value": "220"
+            }
+        },
+        {
+            "type": "wokwi-resistor",
+            "id": "resistorYellowLed",
+            "top": 61.55,
+            "left": 144,
+            "attrs": {
+                "value": "220"
+            }
+        },
+        {
+            "type": "wokwi-resistor",
+            "id": "resistorGreenLed",
+            "top": 61.55,
+            "left": 240,
+            "attrs": {
+                "value": "220"
+            }
+        }
+    ],
+    "connections": [
+        [
+            "resistorRedLed:1",
+            "redRed:C",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "resistorYellowLed:2",
+            "yellowRed:C",
+            "green",
+            [
+                "v-76.8",
+                "h-106.8"
+            ]
+        ],
+        [
+            "resistorGreenLed:2",
+            "greenRed:C",
+            "green",
+            [
+                "v-86.4",
+                "h-30"
+            ]
+        ],
+        [
+            "bb1:tn.3",
+            "uno:GND.1",
+            "black",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "resistorRedLed:2",
+            "bb1:tn.6",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "resistorYellowLed:1",
+            "bb1:tn.10",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "resistorGreenLed:1",
+            "bb1:tn.18",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "redRed:A",
+            "uno:13",
+            "green",
+            [
+                "v307.2",
+                "h38.4"
+            ]
+        ],
+        [
+            "yellowRed:A",
+            "uno:12",
+            "green",
+            [
+                "v298",
+                "h19.8"
+            ]
+        ],
+        [
+            "greenRed:A",
+            "uno:11",
+            "green",
+            [
+                "v288.4",
+                "h9"
+            ]
+        ]
+    ],
+    "dependencies": {}
+}
