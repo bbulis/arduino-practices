@@ -28,4 +28,6 @@ void loop()
     {
         falling_flags++;
     }
+
+    delay(200);
 }
