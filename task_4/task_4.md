@@ -16,5 +16,6 @@ Dies wird fortgeführt bis zur letzten Stelle.
 Der freigewordene 10. Platz wird mit dem Wert von `voltage` beschrieben.
 
 Am Ende von jedem Durchlauf sollen alle Werte der Liste nacheinander ausgegeben werden.
+Zuletzt wird noch zwei Sekunden gewartet bis der nächste Durchlauf startet.
 
 Die Beschaltung des Arduino wird als korrekt angenommen.

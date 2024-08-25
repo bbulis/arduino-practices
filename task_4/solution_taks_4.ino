@@ -22,4 +22,6 @@ void loop()
     {
         Serial.println(voltage_history[k]);
     }
+
+    delay(2000);
 }
